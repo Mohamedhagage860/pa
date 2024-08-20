@@ -1,13 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #000;
+
 }
 
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
     text-decoration: none;
-    direction: rtl;
+
     list-style: none;
 }
 @import "https://unpkg.com/normalize.css";
@@ -129,7 +130,7 @@ align-items: center;
   width: 100%;
   border: solid 2px var(--color);
   clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
-
+direction: rtl;
 }
 .heading .logo{
     display: flex;
@@ -848,6 +849,7 @@ font-weight: bold;
         padding-bottom: var(--main-padding);
         position: relative;
         margin-top: 100px;
+        direction: rtl;
     }
   
     .Programmers::before{
@@ -995,6 +997,7 @@ font-weight: bold;
         height: 80vh;
        padding: 0 50px;
        position: relative;
+       direction: rtl;
     }
     .story::before{
         content: "";
@@ -1013,6 +1016,7 @@ font-weight: bold;
     }
     .story .text{
         width: 100%;
+      
             }
   
     .story .text h2{
@@ -1049,14 +1053,14 @@ font-weight: bold;
         display: flex;
         justify-content: center;
        
-       
+       margin-right: 35px;
     }
     footer .nested-footer ul li{
         margin: 0 20px;
         
     }
     footer .nested-footer ul li a{
-        font-size: 20px;
+        
         color: #fff;
     }
     footer .nested-footer ul li a:hover{
@@ -1136,6 +1140,7 @@ font-weight: bold;
       
         padding-bottom: var(--main-padding);
         position: relative;
+        direction:rtl ;
         
     }
     .harb .container .card::before {
