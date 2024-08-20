@@ -1107,11 +1107,11 @@ width: 100%;
         color: #fff;
     }
     .story .videos{
-      
-    }
-    .story .videos video{
         width: 100%;
         border: 1px solid var(--color);
+    }
+    .story .videos video{
+       
     }
     /* end story*/
     /* start footer*/
